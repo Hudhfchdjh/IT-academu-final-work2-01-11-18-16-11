@@ -1,0 +1,287 @@
+*{
+	margin:0;
+}
+.two-top-block{
+	width: 100%;
+	height: 700px;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+	}
+
+.first-top-block{
+	background-image: url(image/2010721678.jpg);
+	height: 700px;
+	width: 100%;
+	position: relative;
+ background-size: contain;
+  background-repeat: round;
+	background-attachment: fixed;
+}
+
+.big-text{
+
+
+}
+
+header{ 
+position: absolute;
+z-index: 100;
+	width:100%;
+	display: block;
+	overflow: auto;
+	background-color: grey;
+	position: fixed;
+	 
+	
+  
+
+
+ 
+}
+.nav{
+text-align: center;
+ background-color:rgba(255,0,0,0.7)
+max-width: 100%
+
+}
+.nav li {   
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+	width: 200px;
+	font-family: 'Ubuntu', sans-serif;
+	
+   
+
+
+
+}
+.nav li:hover{
+	background-color: red;
+	transition: 0.5s;
+}
+.logotip{
+	/*display: flex;*/
+	display: block;
+	height: 40px; width: 40px;
+    padding-top:50px;
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    margin-left: 25px
+}
+.logo-text{
+	overflow: auto;
+	position: absolute;
+	
+	z-index: 4;
+	display: block;
+	margin-top: 150px;
+	margin-left: 270px;
+}
+.block-clock{
+	 top:50%;
+    left:44.8%;
+   
+    width: 50px;
+    height:100px;
+    position: absolute;
+    z-index: 4
+
+}
+.strelka{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    transition: all 1s ease;
+    height: 50px; width: 50px;
+    top:70%;
+  
+    left:45.9%;
+    border-color: black;
+
+}
+/*.van {
+    top: 70%;
+    left: 42%;
+}*/
+#axis:hover .move-down{
+    transform: translate(0,30px) ;
+}
+/*TWO PART*/
+/*---------------------------------------------------*/
+.two-botom-block{
+	height: 700px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+}
+.good-otstup{
+	max-height: 100%;
+	width:50px;
+	}
+/*.botom-topi-block{
+	background-image: url(image/hiker-1149877_1280.jpg);
+	height: auto;
+	width:100%;
+	position: relative;
+ background-size: contain;
+  background-repeat: round;
+	background-attachment: fixed;
+}*/
+.goden{
+	/*overflow: auto;*/
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 200px;
+	margin-left: 300px;
+}
+#goden{}
+.strelka2{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    transition: all 1s ease;
+    height: 50px; width: 50px;
+    top:85%;
+    left:45.9%;
+}
+#apik:hover .move-down{
+    transform: translate(0,30px) ;
+}
+.botom-topi-block{
+	background-image: url(image/hiker-1149877_1280.jpg);
+	height: 700px;
+	width:100%;
+	position: relative;
+ background-size: contain;
+  background-repeat: round;
+}
+
+/*------------------------------------------------*/
+.three-tw-botom-block{
+	height: 600px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+}
+.static{
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 130px;
+	margin-left: 130px;
+
+}
+.elps{
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 350px;
+	margin-left: 80px;
+}
+.strelka3{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    transition: all 1s ease;
+    height: 50px; width: 50px;
+    top:75%;
+    left:45.9%;
+    color: white;
+}
+#apis:hover .move-down{
+    transform: translate(0,30px) ;
+}
+.three-botom-block{
+	background-image: url(image/map-index-life.jpg);
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background-size: contain;
+	background-repeat: round;
+
+}
+/*-------------------------------------*/
+.fou-tw-botom-block{
+	height: 590px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+}
+.fin-txt{
+	position: absolute;
+	z-index: 4;
+	height: 400px;
+	width: auto;
+	margin-top:90px;
+	margin-left: 220px; 
+}
+.button {
+	display: inline-block;
+	position: absolute;
+	z-index: 4;
+	margin-top: 520px;
+	margin-left: 530px;
+	min-width:100px;
+	padding: 22px 33px;
+	font-family: 'Impact', cursive;
+	font-size: 26px;
+	line-height: 26px;
+ text-decoration: none; 
+	color: #FFF;
+	background: black;
+	 border-radius: 15px; 
+	border: 1px solid #4c0300;
+ /*	position: relative;*/
+	/* overflow: visible;*/  
+
+}
+
+
+.button:hover {
+	background: black;
+}
+.button:focus {
+	outline: none; 
+}
+ .button:active {
+  box-shadow:
+    inset 1px 1px 0px rgba(255,255,255,0.25), 
+    inset 0 0 6px #c1baba, 
+    inset 0 80px 80px -40px #c1baba, 
+    0px 1px 0px rgba(255,255,255,0.25);
+    
+  -webkit-transition: 50ms linear;
+     -moz-transition: 50ms linear;
+       -o-transition: 50ms linear;
+          transition: 50ms linear; 
+}
+
+.fou-botom-block{
+	background-image: url(image/final-slide.png);
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background-size: contain;
+	background-repeat: round;
+}
+/*-----------------------------------------------*/
+footer{
+	background-color:#778899;
+	height: 200px;
+	width: 100%;
+}
+
+
+
+         

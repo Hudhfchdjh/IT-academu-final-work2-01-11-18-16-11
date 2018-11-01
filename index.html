@@ -1,0 +1,90 @@
+<!DOCTYPE>
+<html>
+<body>
+<head>
+	<meta charset="utf-8" />
+  <title>Wopins</title>
+	
+<link rel="stylesheet" href="style.css">
+ <!-- <link rel="stylesheet" type="text/css" href="bootstrap-4.1.3"> -->
+<!-- <link  rel="style.css"href="chrifts/Slabo_27px.zip"> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<link rel="stylesheet" href="media.css">
+</head>
+<body>
+	<script type="text/javascript">
+ $(document).ready(function(){
+    $("#axis").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+
+ <header>
+ 	<img src="image/Logo.png" class="logotip">
+
+	<ul class="nav">
+		<li>Help</li>
+		<li>Products</li>
+	    <li>Services</li>
+	    <li>Offers</li>
+		<li>About us</li>
+	</ul>
+</header>
+<!-- ------------------------------ -->
+
+	<div class="first-top-block">
+		<img src="image/logotext.png" class="logo-text">
+		<div id="axis"class="block-clock">
+ <a href="#g2"><img class="strelka move-down" src="image/strelka in bottom.png" alt="" />
+</div></a>
+	<div class="two-top-block">
+	</div>
+</div>
+<!-- -------------------------------- -->
+<div id="g2"class="botom-topi-block">
+	<div class="good-otstup"></div>
+	<div class="good2-otstup">
+		
+	</div>
+	<img src="image/good.png" class="goden">
+		<div id="apik"class="block-clock-two">
+ <a href="#g3"><img class="strelka2 move-down" src="image/strelka in bottom.png" alt="" /></a>
+</div>
+	<div class="two-botom-block">
+	</div>
+</div>
+<!-- ----------------------------------- -->
+<div id="g3"class="three-botom-block">
+	<img src="image/statistica2.png" class="static">
+	<img src="image/elips.png" class="elps">
+	<div id="apis"class="block-clock-thre">
+ <a href="#g4"><img class="strelka3 move-down" src="image/strelka in bottom.png" alt="" /></a>
+</div>
+
+	<div class="three-tw-botom-block">
+		
+	</div>
+</div>
+<!-- -------------------------------- -->
+<div id="g4"class="fou-botom-block">
+	<img src="image/Final-text-slide.png" class="fin-txt">
+				<a href="#" class="button">VIEV SERVICES</a>
+	<div class="three-tw-botom-block">
+
+	</div>
+</div>
+<footer>
+		<ul>
+			<a><li>Help</li><a/>
+			<a><li>Produses</li><a/>
+			<a><li>GOVNUSES</li><a/>
+				<a><li>SOLUTES</li></a>
+		</ul>
+</footer>
+
+</body>
+</html>
